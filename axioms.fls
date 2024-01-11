@@ -1,0 +1,31 @@
+Variable r
+
+Axiom (NonZeroRealNumberInfersNotZero)
+  Suppose
+    r:ℝ\{0}
+  Then
+    r ≠ zero
+
+Variable q
+
+Axiom (NonZeroRationalNumberInfersNotZero)
+  Suppose
+    q:ℝ\{0}
+  Then
+    q ≠ zero
+
+Variable z
+
+Axiom (NonZeroIntegerInfersNotZero)
+  Suppose
+    z:ℤ\{0}
+  Then
+    z ≠ zero
+
+Variable n
+
+Axiom (NonZeroNaturalNumberInfersNotZero)
+  Suppose
+    n:ℕ\{0}
+  Then
+    n ≠ zero
