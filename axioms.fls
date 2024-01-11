@@ -6,6 +6,13 @@ Axiom (NonZeroRealNumberInfersNotZero)
   Then
     r ≠ zero
 
+Axiom (RealNumberNonZeroInfersNonZeroRealNumber)
+  Suppose
+    r:ℝ
+    r ≠ zero
+  Then
+    r:ℝ\{0}
+
 Variable q
 
 Axiom (NonZeroRationalNumberInfersNotZero)
@@ -13,6 +20,13 @@ Axiom (NonZeroRationalNumberInfersNotZero)
     q:ℝ\{0}
   Then
     q ≠ zero
+
+Axiom (RationalNumberNonZeroInfersNonZeroRationalNumber)
+  Suppose
+    q:ℚ
+    q ≠ zero
+  Then
+    q:ℚ\{0}
 
 Variable z
 
@@ -22,6 +36,13 @@ Axiom (NonZeroIntegerInfersNotZero)
   Then
     z ≠ zero
 
+Axiom (IntegerNonZeroInfersNonZeroInteger)
+  Suppose
+    z:ℤ
+    z ≠ zero
+  Then
+    z:ℤ\{0}
+
 Variable n
 
 Axiom (NonZeroNaturalNumberInfersNotZero)
@@ -29,3 +50,10 @@ Axiom (NonZeroNaturalNumberInfersNotZero)
     n:ℕ\{0}
   Then
     n ≠ zero
+
+Axiom (NaturalNumberNonZeroInfersNonZeroNaturalNumber)
+  Suppose
+    n:ℕ
+    n ≠ zero
+  Then
+    n:ℕ\{0}
