@@ -17,7 +17,7 @@ Variable q
 
 Axiom (NonZeroRationalNumberInfersNotZero)
   Suppose
-    q:ℝ\{0}
+    q:ℚ\{0}
   Then
     q ≠ zero
 
