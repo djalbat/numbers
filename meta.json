@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
+  "version": "0.0.0",
   "repository": "https://github.com/djalbat/numbers",
   "dependencies": {
-    "equality": "1.0"
+    "equality": "0.0"
   }
 }
