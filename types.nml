@@ -1,9 +1,11 @@
 Type ℝ
-Type ℚ:ℝ
+Type 𝔸:ℝ
+Type ℚ:𝔸
 Type ℤ:ℚ
 Type ℕ:ℤ
 
 Type ℝ\{0}:ℝ
-Type ℚ\{0}:ℚ,ℝ\{0}
+Type 𝔸\{0}:𝔸,ℝ\{0}
+Type ℚ\{0}:ℚ,𝔸\{0}
 Type ℤ\{0}:ℤ,ℚ\{0}
 Type ℕ\{0}:ℕ,ℤ\{0}
