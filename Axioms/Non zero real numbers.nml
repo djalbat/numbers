@@ -1,0 +1,7 @@
+Variable r
+
+Axiom (NonZeroRealNumberInfersNotZero)
+  Suppose
+    r:ℝ\{0}
+  Then
+    r ≠ 𝘻𝘦𝘳𝘰
